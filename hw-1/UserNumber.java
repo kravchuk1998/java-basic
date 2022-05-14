@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class UserNumber {
     public static void main(String[] args) {
         Random random= new Random(100);
-        Scanner scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your name");
         String name = scanner.nextLine();
         System.out.println("Let the game begin!");
